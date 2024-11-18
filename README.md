@@ -1,17 +1,17 @@
 # Important
-You need to install mdb ( run `ng add mdb-angular-ui-kit`) to make the project work perfectly.
+You need to install mdb ( run `ng add mdb-angular-ui-kit`) to make the project work perfectly.<br>
 Versoin Info:<br>
-@angular-devkit/architect       0.1703.11
-@angular-devkit/build-angular   17.3.11
-@angular-devkit/core            17.3.11
-@angular-devkit/schematics      17.3.11
-@angular/cdk                    17.3.10
-@angular/cli                    17.3.11
-@angular/ssr                    17.3.11
-@schematics/angular             17.3.11
-rxjs                            7.8.1
-typescript                      5.3.3
-zone.js                         0.14.10
+@angular-devkit/architect       0.1703.11<br>
+@angular-devkit/build-angular   17.3.11<br>
+@angular-devkit/core            17.3.11<br>
+@angular-devkit/schematics      17.3.11<br>
+@angular/cdk                    17.3.10<br>
+@angular/cli                    17.3.11<br>
+@angular/ssr                    17.3.11<br>
+@schematics/angular             17.3.11<br>
+rxjs                            7.8.1<br>
+typescript                      5.3.3<br>
+zone.js                         0.14.10<br>
 # UsersListApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
