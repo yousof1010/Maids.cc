@@ -1,6 +1,6 @@
 # Important
 You need to install mdb ( run `ng add mdb-angular-ui-kit`) to make the project work perfectly.
-Versoin Info:
+Versoin Info:<br>
 @angular-devkit/architect       0.1703.11
 @angular-devkit/build-angular   17.3.11
 @angular-devkit/core            17.3.11
