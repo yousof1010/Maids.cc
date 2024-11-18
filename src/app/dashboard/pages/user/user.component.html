@@ -1,0 +1,22 @@
+<div class = "container">
+    <div class = "img-container">
+        <img class = "img" src={{User.avatar}} alt="">
+    </div>
+
+    <div class = "info-header-container">
+        <h1>{{User.first_name + " " + User.last_name}}</h1>
+    </div>
+    <div class = "info-container">
+        <span class = "headInfoTxt">User id: </span>
+        <span class = "infoTxt"> {{User.id}}</span>
+    </div>
+    <div class = "info-container">
+        <span class = "headInfoTxt">User email: </span>
+        <span class = "infoTxt"> {{User.email}}</span>
+    </div>
+    <div class = "info-header-container">
+        <button type="button" class="btn btn-primary back-Icon" mdbRipple routerLink="" > <i class="fas fa-angle-left fa-4x "></i></button>
+       
+    </div>
+    
+</div>

@@ -1,0 +1,38 @@
+<div class="page-container">
+
+    <div  class="flib-widget-container">
+        <div class="flib-widget" *ngFor="let User of Users" routerLink="User/{{User.id}}" routerLinkActive="active"
+            ariaCurrentWhenActive="page">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src={{User.avatar}} class="pearls-img"><!-- UserPhoto-->
+                    <div class="flib-widget-text-container">
+                        <div>
+                            {{User.id}}
+                        </div>
+                        <div class="flib-widget-text-header">
+                            {{User.first_name + " " + User.last_name}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card-back">
+                    <span class="container-column text22">
+                        <span>User id</span>
+                        <span>{{User.id}}</span>
+                    </span>
+                    <span class="container-column text23">
+                        <span>User email </span>
+                        <span> {{User.email}} </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="!isSearch" class="btn-container" #btnGroup (click)="deactivate_btn($event)">
+        <button type="button" class="btn btn-primary" mdbRipple (click)="Go_page(1)">1</button>
+        <button type="button" class="btn btn-secondary" mdbRipple (click)="Go_page(2)">2</button>
+    </div>
+
+</div>
